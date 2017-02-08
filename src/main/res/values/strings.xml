@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">HyprLoco_Android_SDK</string>
+    <string name="io.branch.sdk.BranchKey">key_live_fkeW0ad5DxciY8mn44dqWbhpxxm3jWAm</string>
+    <string name="io.branch.sdk.BranchKey.test">key_test_jinW4nh3zAjdY0ic9Ybq9lmlBwa5o9p1</string>
+    <string name="SenderId">235669993843</string>
+    <string name="HubName">ois</string>
+    <string name="DevHubName">ois-dev</string>
+    <string name="HubListenConnectionString">Endpoint=sb://hyprcloud-ns.servicebus.windows.net/;SharedAccessKeyName=ListenerSharedAccessKey;SharedAccessKey=ZPtOOlzwXaYZE4WVb1msehCMqGBKgqe5e8c0LVnaoT8=</string>
+    <string name="subscription_key">fd4f434bbd444f7aaed53b6363e51957</string>
+    <string name="application_key">8268d380f4cc44378e5b41c30126dbfd</string>
+    <string name="getlocationsapi">/api/locations</string>
+
+    <!--//Environments -->
+    <string name="env_test">http://hypr-tst-app-ois.azurewebsites.ne</string>
+    <string name="env_dev">https://hypr-dev-app-ois.azurewebsites.net</string>
+    <string name="env_staging">https://hypr-stg-app-ois.azurewebsites.net</string>
+    <string name="env_prod">https://swdg-ois.hyprcloud.net</string>
+
+
+    <!--API Extensions-->
+
+    <!--//  + "/api/locations" + ( request.ll == null ? "" : "?ll="+request.ll ) );-->
+    <string name="api_locations">/api/locations</string>
+   <!-- //  URL url = new URL(userPrefs.getString(NormAppPreferencesEnum.Key.OIS_URL)+"/customer/register/device" );-->
+    <string name="api_post_register_user_device">/customer/register/device</string>
+
+    <!--+ "/api/customers/" + request.customerId);-->
+    <string name="api_customers_base">/api/customers/</string>
+
+    <!--+ "/api/customers?ph=" + request.phoneNumber);-->
+    <string name="api_validate_user_phone">/api/customers?ph=</string>
+
+    <!--//    + "/api/customers/" + ackId + "/receipts/surveys");-->
+    <string name="api__post_acknowledge_notifications">/receipts/surveys</string>
+
+
+
+</resources>
+
+
+
+
